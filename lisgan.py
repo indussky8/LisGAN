@@ -21,7 +21,7 @@ from sklearn.cluster import KMeans
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='FLO', help='FLO')
-parser.add_argument('--dataroot', default='/home/poxiaoge/Documents/dataset/ZSL', help='path to dataset')
+parser.add_argument('--dataroot', default='/home/xzh130/LisGAN/xlsa17/data', help='path to dataset')
 parser.add_argument('--matdataset', default=True, help='Data in matlab format')
 parser.add_argument('--image_embedding', default='res101')
 parser.add_argument('--class_embedding', default='att')
